@@ -1,0 +1,98 @@
+{
+  "LangName": "Suomi",
+  "Translations": {
+    "Title_Manager": "Lemmikkini",
+    "Title_AddPet": "Lisää uusi lemmikki",
+    "Btn_AddPet": "+ Lisää lemmikki",
+    "Btn_Launch": "KÄYNNISTÄ KAIKKI ▶",
+    
+    "Tab_Pets": "Lemmikit",
+    "Tab_Food": "Ruoka",
+    "Tab_Acc": "Asusteet",
+    "Txt_FoodDrag": "Raahaa ruokaa ruudulle!",
+    "Lbl_Veg": "Kasvis",
+    "Lbl_NonVeg": "Ei-kasvis",
+
+    "Title_Settings": "Asetukset",
+    "Btn_Reset": "Palauta oletukset",
+    "Lbl_Behavior": "Käytös",
+    "Lbl_Size": "Koko",
+    "Lbl_Personality": "Luonne",
+    "Lbl_Speed": "Nopeus",
+    "Lbl_HungerTime": "Nälkäaika",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Sijainti",
+    "Lbl_Gravity": "Pystysuunta",
+    "Lbl_Edge": "Vaakasuunta",
+
+    "Btn_Delete": "Poista lemmikki",
+    "Btn_Save": "Tallenna muutokset",
+    "Btn_Cancel": "Peruuta",
+
+    "Species_Dog": "Koira",
+    "Species_Goose": "Hanhi",
+
+    "Val_Speed_1": "Todella hidas",
+    "Val_Speed_2": "Hidas",
+    "Val_Speed_3": "Melko hidas",
+    "Val_Speed_4": "Normaali",
+    "Val_Speed_5": "Melko nopea",
+    "Val_Speed_6": "Nopea",
+    "Val_Speed_7": "Todella nopea",
+
+    "Val_Pers_1": "Hyvin unelias",
+    "Val_Pers_2": "Enimmäkseen rauhallinen",
+    "Val_Pers_3": "Tasapainoinen",
+    "Val_Pers_4": "Enimmäkseen aktiivinen",
+    "Val_Pers_5": "Superaktiivinen",
+
+    "Opt_Grav_0": "Kävele lattialla",
+    "Opt_Grav_1": "Lennä vapaasti",
+    "Opt_Grav_2": "Leiju ylös",
+    "Opt_Grav_3": "Pompi ylös/alas",
+
+    "Opt_Edge_0": "Kävele ympäri näyttöä",
+    "Opt_Edge_1": "Kimpoa seinistä",
+    
+    "Title_MoreStuff": "Lisää",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Tauota 30 min",
+    "Btn_Resume": "Jatka Aroa",
+    "Hdr_Help": "Ohje ja tuki",
+    "Btn_WhatsNew": "Mikä on uutta",
+    "Btn_Coffee": "Osta meille kahvi ☕",
+    "Btn_Rate": "Arvostele sovellus",
+    "Btn_Report": "Ilmoita ongelmasta",
+    "Btn_Feedback": "Lähetä palautetta",
+    "Btn_Share": "Jaa sovellus",
+    "Hdr_Credits": "Tekijät",
+    "Btn_Privacy": "Tietosuojakäytäntö",
+    "Btn_Licenses": "Lisenssit ja tekijät",
+    "Hdr_Creators": "Tapaa tekijät",
+    "Txt_DevIntro": "Hei! Olemme Rish & Arashi, tämän sovelluksen kehittäjä ja suunnittelija ♡",
+    "Txt_DevStory": "Teimme tämän sovelluksen, koska uskomme, että teknologian pitäisi olla söpöä ja hauskaa!\nKerro meille, mitä haluaisit lisätä - lupaamme vastata ja yrittää parhaamme toteuttaa sen!",
+    "Btn_Ideas": "Lähetä ideasi",
+    
+    "Msg_WhatsNew": "Versio 1.0: Ensimmäinen Windows-julkaisu! 🎉",
+    "Msg_ShareCopied": "Linkki kopioitu leikepöydälle! Jaa se ystäville.",
+    "Msg_ComingSoon_Title": "Tulossa pian",
+    "Msg_ComingSoon_Text": "Tätä ominaisuutta kehitetään! Pysy kuulolla.",
+
+    "Menu_Pet": "Silitä",
+    "Menu_Manage": "Lisää / Hallitse...",
+    "Menu_Settings": "Asetukset...",
+    "Menu_Delete": "Poista lemmikki",
+    "Menu_TrayFeed": "Ruoki lemmikki",
+    "Menu_RemoveFood": "Poista ruoka",
+    "Menu_Pause": "Jää / Jatka",
+    "Menu_Exit": "Poistu sovelluksesta",
+    
+    "Txt_Hungry": "Nälkäinen!",
+    "Tip_Health": "Terveys: {0}% | Nälkä: {1}%",
+
+    "Btn_Back": "Takaisin",
+    "Menu_Feed": "Ruoki Lemmikki"
+
+  }
+}

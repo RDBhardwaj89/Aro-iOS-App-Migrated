@@ -1,0 +1,98 @@
+{
+  "LangName": "Português",
+  "Translations": {
+    "Title_Manager": "Meus Animais",
+    "Title_AddPet": "Adicionar Novo Animal",
+    "Btn_AddPet": "+ Adicionar Animal",
+    "Btn_Launch": "LANÇAR TODOS ▶",
+    
+    "Tab_Pets": "Animais",
+    "Tab_Food": "Comida",
+    "Tab_Acc": "Acessórios",
+    "Txt_FoodDrag": "Arraste comida na tela!",
+    "Lbl_Veg": "Vegetariano",
+    "Lbl_NonVeg": "Não Vegetariano",
+
+    "Title_Settings": "Configurações",
+    "Btn_Reset": "Restaurar Padrões",
+    "Lbl_Behavior": "Comportamento",
+    "Lbl_Size": "Tamanho",
+    "Lbl_Personality": "Personalidade",
+    "Lbl_Speed": "Velocidade",
+    "Lbl_HungerTime": "Tempo de Fome",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Posicionamento",
+    "Lbl_Gravity": "Vertical",
+    "Lbl_Edge": "Horizontal",
+
+    "Btn_Delete": "Excluir Animal",
+    "Btn_Save": "Salvar Alterações",
+    "Btn_Cancel": "Cancelar",
+
+    "Species_Dog": "Cão",
+    "Species_Goose": "Ganso",
+
+    "Val_Speed_1": "Super Lento",
+    "Val_Speed_2": "Lento",
+    "Val_Speed_3": "Bem Lento",
+    "Val_Speed_4": "Normal",
+    "Val_Speed_5": "Bem Rápido",
+    "Val_Speed_6": "Rápido",
+    "Val_Speed_7": "Super Rápido",
+
+    "Val_Pers_1": "Muito Sonolento",
+    "Val_Pers_2": "Muito Calmo",
+    "Val_Pers_3": "Equilibrado",
+    "Val_Pers_4": "Muito Ativo",
+    "Val_Pers_5": "Super Ativo",
+
+    "Opt_Grav_0": "Andar no Chão",
+    "Opt_Grav_1": "Voar Livremente",
+    "Opt_Grav_2": "Flutuar Para Cima",
+    "Opt_Grav_3": "Quicar Para Cima/Baixo",
+
+    "Opt_Edge_0": "Andar Pela Tela",
+    "Opt_Edge_1": "Quicar nas Paredes",
+    
+    "Title_MoreStuff": "Mais Coisas",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Pausar por 30 min",
+    "Btn_Resume": "Retomar Aro",
+    "Hdr_Help": "Ajuda & Suporte",
+    "Btn_WhatsNew": "O Que Há de Novo",
+    "Btn_Coffee": "Compre-nos um café ☕",
+    "Btn_Rate": "Avaliar o app",
+    "Btn_Report": "Reportar Problema",
+    "Btn_Feedback": "Enviar Feedback",
+    "Btn_Share": "Compartilhar o app",
+    "Hdr_Credits": "Créditos",
+    "Btn_Privacy": "Política de Privacidade",
+    "Btn_Licenses": "Licenças & Créditos",
+    "Hdr_Creators": "Conheça os criadores",
+    "Txt_DevIntro": "Oi! Somos Rish & Arashi, desenvolvedores e designers deste app ♡",
+    "Txt_DevStory": "Criamos este app porque acreditamos que tecnologia deve ser fofa e divertida!\nDiga-nos o que você gostaria de adicionar - prometemos responder e fazer o nosso melhor para realizar!",
+    "Btn_Ideas": "Envie suas ideias",
+    
+    "Msg_WhatsNew": "Versão 1.0: Primeiro Lançamento Windows! 🎉",
+    "Msg_ShareCopied": "Link copiado para a área de transferência! Compartilhe com amigos.",
+    "Msg_ComingSoon_Title": "Em Breve",
+    "Msg_ComingSoon_Text": "Este recurso está em desenvolvimento! Fique ligado.",
+
+    "Menu_Pet": "Animal Bom Garoto",
+    "Menu_Manage": "Adicionar / Gerenciar Animais...",
+    "Menu_Settings": "Configurações...",
+    "Menu_Delete": "Excluir Animal",
+    "Menu_TrayFeed": "Alimentar Animal",
+    "Menu_RemoveFood": "Remover Comida",
+    "Menu_Pause": "Pausar / Retomar",
+    "Menu_Exit": "Sair do App",
+    
+    "Txt_Hungry": "Com Fome!",
+    "Tip_Health": "Saúde: {0}% | Fome: {1}%",
+
+    "Btn_Back": "Voltar",
+    "Menu_Feed": "Alimentar Animal"
+
+  }
+}

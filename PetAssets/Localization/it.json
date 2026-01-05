@@ -1,0 +1,98 @@
+{
+  "LangName": "Italiano",
+  "Translations": {
+    "Title_Manager": "I Miei Animali",
+    "Title_AddPet": "Aggiungi Nuovo Animale",
+    "Btn_AddPet": "+ Aggiungi Animale",
+    "Btn_Launch": "LANCIA TUTTI ▶",
+    
+    "Tab_Pets": "Animali",
+    "Tab_Food": "Cibo",
+    "Tab_Acc": "Accessori",
+    "Txt_FoodDrag": "Trascina il cibo sullo schermo!",
+    "Lbl_Veg": "Vegetariano",
+    "Lbl_NonVeg": "Non Vegetariano",
+
+    "Title_Settings": "Impostazioni",
+    "Btn_Reset": "Ripristina Predefiniti",
+    "Lbl_Behavior": "Comportamento",
+    "Lbl_Size": "Dimensione",
+    "Lbl_Personality": "Personalità",
+    "Lbl_Speed": "Velocità",
+    "Lbl_HungerTime": "Tempo Fame",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Posizionamento",
+    "Lbl_Gravity": "Verticale",
+    "Lbl_Edge": "Orizzontale",
+
+    "Btn_Delete": "Elimina Animale",
+    "Btn_Save": "Salva Modifiche",
+    "Btn_Cancel": "Annulla",
+
+    "Species_Dog": "Cane",
+    "Species_Goose": "Oca",
+
+    "Val_Speed_1": "Super Lento",
+    "Val_Speed_2": "Lento",
+    "Val_Speed_3": "Abbastanza Lento",
+    "Val_Speed_4": "Normale",
+    "Val_Speed_5": "Abbastanza Veloce",
+    "Val_Speed_6": "Veloce",
+    "Val_Speed_7": "Super Veloce",
+
+    "Val_Pers_1": "Molto Sonnolento",
+    "Val_Pers_2": "Principalmente Calmo",
+    "Val_Pers_3": "Bilanciato",
+    "Val_Pers_4": "Principalmente Attivo",
+    "Val_Pers_5": "Super Attivo",
+
+    "Opt_Grav_0": "Cammina sul Pavimento",
+    "Opt_Grav_1": "Vola Liberamente",
+    "Opt_Grav_2": "Fluttua Su",
+    "Opt_Grav_3": "Rimbalza Su/Giù",
+
+    "Opt_Edge_0": "Cammina Intorno allo Schermo",
+    "Opt_Edge_1": "Rimbalza Contro i Bordi",
+    
+    "Title_MoreStuff": "Altro",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Pausa per 30 min",
+    "Btn_Resume": "Riprendi Aro",
+    "Hdr_Help": "Aiuto e Supporto",
+    "Btn_WhatsNew": "Novità",
+    "Btn_Coffee": "Offrici un caffè ☕",
+    "Btn_Rate": "Valuta l'app",
+    "Btn_Report": "Segnala un Problema",
+    "Btn_Feedback": "Invia Feedback",
+    "Btn_Share": "Condividi l'app",
+    "Hdr_Credits": "Credit",
+    "Btn_Privacy": "Informativa Privacy",
+    "Btn_Licenses": "Licenze e Credit",
+    "Hdr_Creators": "Incontra i creatori",
+    "Txt_DevIntro": "Ciao! Siamo Rish & Arashi, sviluppatori e designer di questa app ♡",
+    "Txt_DevStory": "Abbiamo creato questa app perché crediamo che la tecnologia debba essere carina e divertente!\nDicci cosa vorresti aggiungere - promettiamo di rispondere e fare del nostro meglio per realizzarlo!",
+    "Btn_Ideas": "Invia le tue idee",
+    
+    "Msg_WhatsNew": "Versione 1.0: Prima Rilascio Windows! 🎉",
+    "Msg_ShareCopied": "Link copiato negli appunti! Condividilo con gli amici.",
+    "Msg_ComingSoon_Title": "Prossimamente",
+    "Msg_ComingSoon_Text": "Questa funzione è in sviluppo! Resta sintonizzato.",
+
+    "Menu_Pet": "Animale Bravo Ragazzo",
+    "Menu_Manage": "Aggiungi / Gestisci Animali...",
+    "Menu_Settings": "Impostazioni...",
+    "Menu_Delete": "Elimina Animale",
+    "Menu_TrayFeed": "Nutri Animale",
+    "Menu_RemoveFood": "Rimuovi Cibo",
+    "Menu_Pause": "Pausa / Riprendi",
+    "Menu_Exit": "Esci dall'App",
+    
+    "Txt_Hungry": "Affamato!",
+    "Tip_Health": "Salute: {0}% | Fame: {1}%",
+
+    "Btn_Back": "Indietro",
+    "Menu_Feed": "Nutri Animale"
+
+  }
+}

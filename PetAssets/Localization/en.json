@@ -1,0 +1,97 @@
+{
+  "LangName": "English",
+  "Translations": {
+    "Title_Manager": "My Pets",
+    "Title_AddPet": "Add New Pet",
+    "Btn_AddPet": "+ Add Pet",
+    "Btn_Launch": "LAUNCH ALL ▶",
+    
+    "Tab_Pets": "Pets",
+    "Tab_Food": "Food",
+    "Tab_Acc": "Accessories",
+    "Txt_FoodDrag": "Drag food onto the screen!",
+    "Lbl_Veg": "Vegetarian",
+    "Lbl_NonVeg": "Non-Vegetarian",
+
+    "Title_Settings": "Settings",
+    "Btn_Reset": "Reset Defaults",
+    "Lbl_Behavior": "Behavior",
+    "Lbl_Size": "Size",
+    "Lbl_Personality": "Personality",
+    "Lbl_Speed": "Speed",
+    "Lbl_HungerTime": "Hunger Time",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Placement",
+    "Lbl_Gravity": "Vertical",
+    "Lbl_Edge": "Horizontal",
+
+    "Btn_Delete": "Delete Pet",
+    "Btn_Save": "Save Changes",
+    "Btn_Cancel": "Cancel",
+
+    "Species_Dog": "Dog",
+    "Species_Goose": "Goose",
+
+    "Val_Speed_1": "Super Slow",
+    "Val_Speed_2": "Slow",
+    "Val_Speed_3": "Kinda Slow",
+    "Val_Speed_4": "Normal",
+    "Val_Speed_5": "Kinda Fast",
+    "Val_Speed_6": "Fast",
+    "Val_Speed_7": "Super Fast",
+
+    "Val_Pers_1": "Very Sleepy",
+    "Val_Pers_2": "Mostly Calm",
+    "Val_Pers_3": "Balanced",
+    "Val_Pers_4": "Mostly Active",
+    "Val_Pers_5": "Super Active",
+
+    "Opt_Grav_0": "Walk on Floor",
+    "Opt_Grav_1": "Fly Freely",
+    "Opt_Grav_2": "Float Up",
+    "Opt_Grav_3": "Bounce Up/Down",
+
+    "Opt_Edge_0": "Walk Around Screen",
+    "Opt_Edge_1": "Bounce Off Walls",
+    
+    "Title_MoreStuff": "More Stuff",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Pause for 30 min",
+    "Btn_Resume": "Resume Aro",
+    "Hdr_Help": "Help & Support",
+    "Btn_WhatsNew": "What's New",
+    "Btn_Coffee": "Buy us a coffee ☕",
+    "Btn_Rate": "Rate the app",
+    "Btn_Report": "Report a Problem",
+    "Btn_Feedback": "Send Feedback",
+    "Btn_Share": "Share the app",
+    "Hdr_Credits": "Credits",
+    "Btn_Privacy": "Privacy Policy",
+    "Btn_Licenses": "Licenses & Credits",
+    "Hdr_Creators": "Meet the creators",
+    "Txt_DevIntro": "Hi! We're Rish & Arashi, developer and designers of this app ♡",
+    "Txt_DevStory": "We made this app because we believe tech should be cute and fun!\nTell us what you'd like to add - we promise we'll respond and try our best to make it happen!",
+    "Btn_Ideas": "Send us your ideas",
+    
+    "Msg_WhatsNew": "Version 1.0: First Windows Release! 🎉",
+    "Msg_ShareCopied": "Link copied to clipboard! Share it with friends.",
+    "Msg_ComingSoon_Title": "Coming Soon",
+    "Msg_ComingSoon_Text": "This feature is under development! Stay tuned.",
+
+    "Menu_Pet": "Pet Good Boy",
+    "Menu_Manage": "Add / Manage Pets...",
+    "Menu_Settings": "Settings...",
+    "Menu_Delete": "Delete Pet",
+    "Menu_TrayFeed": "Feed Pet",
+    "Menu_RemoveFood": "Remove Food",
+    "Menu_Pause": "Stay / Resume",
+    "Menu_Exit": "Exit App",
+    
+    "Txt_Hungry": "Hungry!",
+    "Tip_Health": "Health: {0}% | Hunger: {1}%",
+
+    "Btn_Back": "Back",
+    "Menu_Feed": "Feed Pet"
+  }
+}

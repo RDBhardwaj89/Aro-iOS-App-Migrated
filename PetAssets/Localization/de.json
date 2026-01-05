@@ -1,0 +1,97 @@
+{
+  "LangName": "Deutsch",
+  "Translations": {
+    "Title_Manager": "Meine Haustiere",
+    "Title_AddPet": "Neues Haustier hinzufügen",
+    "Btn_AddPet": "+ Tier hinzufügen",
+    "Btn_Launch": "ALLE STARTEN ▶",
+    
+    "Tab_Pets": "Tiere",
+    "Tab_Food": "Futter",
+    "Tab_Acc": "Zubehör",
+    "Txt_FoodDrag": "Zieh Futter auf den Bildschirm!",
+    "Lbl_Veg": "Vegetarisch",
+    "Lbl_NonVeg": "Nicht-Vegetarisch",
+
+    "Title_Settings": "Einstellungen",
+    "Btn_Reset": "Standard wiederherstellen",
+    "Lbl_Behavior": "Verhalten",
+    "Lbl_Size": "Größe",
+    "Lbl_Personality": "Persönlichkeit",
+    "Lbl_Speed": "Geschwindigkeit",
+    "Lbl_HungerTime": "Hunger-Zeit",
+    "Val_Minutes": "{0} Min",
+
+    "Lbl_Placement": "Platzierung",
+    "Lbl_Gravity": "Vertikal",
+    "Lbl_Edge": "Horizontal",
+
+    "Btn_Delete": "Tier löschen",
+    "Btn_Save": "Änderungen speichern",
+    "Btn_Cancel": "Abbrechen",
+
+    "Species_Dog": "Hund",
+    "Species_Goose": "Gans",
+
+    "Val_Speed_1": "Super langsam",
+    "Val_Speed_2": "Langsam",
+    "Val_Speed_3": "Eher langsam",
+    "Val_Speed_4": "Normal",
+    "Val_Speed_5": "Eher schnell",
+    "Val_Speed_6": "Schnell",
+    "Val_Speed_7": "Super schnell",
+
+    "Val_Pers_1": "Sehr schläfrig",
+    "Val_Pers_2": "Meist ruhig",
+    "Val_Pers_3": "Ausgeglichen",
+    "Val_Pers_4": "Meist aktiv",
+    "Val_Pers_5": "Super aktiv",
+
+    "Opt_Grav_0": "Auf dem Boden laufen",
+    "Opt_Grav_1": "Frei fliegen",
+    "Opt_Grav_2": "Nach oben schweben",
+    "Opt_Grav_3": "Auf/Ab hüpfen",
+
+    "Opt_Edge_0": "Auf dem Bildschirm herumlaufen",
+    "Opt_Edge_1": "Von Wänden abprallen",
+    
+    "Title_MoreStuff": "Mehr",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "30 Min. Pause",
+    "Btn_Resume": "Aro fortsetzen",
+    "Hdr_Help": "Hilfe & Support",
+    "Btn_WhatsNew": "Neuigkeiten",
+    "Btn_Coffee": "Kauf uns einen Kaffee ☕",
+    "Btn_Rate": "App bewerten",
+    "Btn_Report": "Problem melden",
+    "Btn_Feedback": "Feedback senden",
+    "Btn_Share": "App teilen",
+    "Hdr_Credits": "Credits",
+    "Btn_Privacy": "Datenschutzerklärung",
+    "Btn_Licenses": "Lizenzen & Credits",
+    "Hdr_Creators": "Die Macher",
+    "Txt_DevIntro": "Hi! Wir sind Rish & Arashi, Entwickler und Designer dieser App ♡",
+    "Txt_DevStory": "Wir haben diese App gemacht, weil wir glauben, dass Technik süß und spaßig sein sollte!\nSag uns, was du hinzufügen möchtest - wir versprechen zu antworten und unser Bestes zu geben, es umzusetzen!",
+    "Btn_Ideas": "Sende uns deine Ideen",
+    
+    "Msg_WhatsNew": "Version 1.0: Erste Windows-Version! 🎉",
+    "Msg_ShareCopied": "Link in die Zwischenablage kopiert! Teile ihn mit Freunden.",
+    "Msg_ComingSoon_Title": "Demnächst",
+    "Msg_ComingSoon_Text": "Diese Funktion ist in Entwicklung! Bleib dran.",
+
+    "Menu_Pet": "Tier streicheln",
+    "Menu_Manage": "Hinzufügen / Verwalten...",
+    "Menu_Settings": "Einstellungen...",
+    "Menu_Delete": "Tier löschen",
+    "Menu_TrayFeed": "Füttern",
+    "Menu_RemoveFood": "Futter entfernen",
+    "Menu_Pause": "Bleiben / Weiter",
+    "Menu_Exit": "App beenden",
+    
+    "Txt_Hungry": "Hungrig!",
+    "Tip_Health": "Gesundheit: {0}% | Hunger: {1}%",
+
+    "Btn_Back": "Retour",
+    "Menu_Feed": "Nourrir"
+  }
+}

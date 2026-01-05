@@ -1,0 +1,98 @@
+{
+  "LangName": "Español",
+  "Translations": {
+    "Title_Manager": "Mis Mascotas",
+    "Title_AddPet": "Añadir Nueva Mascota",
+    "Btn_AddPet": "+ Añadir Mascota",
+    "Btn_Launch": "LANZAR TODOS ▶",
+    
+    "Tab_Pets": "Mascotas",
+    "Tab_Food": "Comida",
+    "Tab_Acc": "Accesorios",
+    "Txt_FoodDrag": "¡Arrastra comida a la pantalla!",
+    "Lbl_Veg": "Vegetariano",
+    "Lbl_NonVeg": "No Vegetariano",
+
+    "Title_Settings": "Ajustes",
+    "Btn_Reset": "Restablecer Valores",
+    "Lbl_Behavior": "Comportamiento",
+    "Lbl_Size": "Tamaño",
+    "Lbl_Personality": "Personalidad",
+    "Lbl_Speed": "Velocidad",
+    "Lbl_HungerTime": "Tiempo de Hambre",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Ubicación",
+    "Lbl_Gravity": "Vertical",
+    "Lbl_Edge": "Horizontal",
+
+    "Btn_Delete": "Eliminar Mascota",
+    "Btn_Save": "Guardar Cambios",
+    "Btn_Cancel": "Cancelar",
+
+    "Species_Dog": "Perro",
+    "Species_Goose": "Ganso",
+
+    "Val_Speed_1": "Súper Lento",
+    "Val_Speed_2": "Lento",
+    "Val_Speed_3": "Algo Lento",
+    "Val_Speed_4": "Normal",
+    "Val_Speed_5": "Algo Rápido",
+    "Val_Speed_6": "Rápido",
+    "Val_Speed_7": "Súper Rápido",
+
+    "Val_Pers_1": "Muy Somnoliento",
+    "Val_Pers_2": "Casi Calmado",
+    "Val_Pers_3": "Equilibrado",
+    "Val_Pers_4": "Casi Activo",
+    "Val_Pers_5": "Súper Activo",
+
+    "Opt_Grav_0": "Caminar por el suelo",
+    "Opt_Grav_1": "Volar libremente",
+    "Opt_Grav_2": "Flotar hacia arriba",
+    "Opt_Grav_3": "Rebotar Arriba/Abajo",
+
+    "Opt_Edge_0": "Caminar por la pantalla",
+    "Opt_Edge_1": "Rebotar en paredes",
+    
+    "Title_MoreStuff": "Más Cosas",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Pausar por 30 min",
+    "Btn_Resume": "Reanudar Aro",
+    "Hdr_Help": "Ayuda y Soporte",
+    "Btn_WhatsNew": "Novedades",
+    "Btn_Coffee": "Cómpranos un café ☕",
+    "Btn_Rate": "Calificar la app",
+    "Btn_Report": "Reportar problema",
+    "Btn_Feedback": "Enviar Comentarios",
+    "Btn_Share": "Compartir la app",
+    "Hdr_Credits": "Créditos",
+    "Btn_Privacy": "Política de Privacidad",
+    "Btn_Licenses": "Licencias y Créditos",
+    "Hdr_Creators": "Conoce a los creadores",
+    "Txt_DevIntro": "¡Hola! Somos Rish y Arashi, desarrollador y diseñadora de esta app ♡",
+    "Txt_DevStory": "¡Hicimos esta aplicación porque creemos que la tecnología debe ser linda y divertida!\nCuéntanos qué te gustaría añadir: ¡prometemos responder e intentar hacerlo realidad!",
+    "Btn_Ideas": "Envíanos tus ideas",
+    
+    "Msg_WhatsNew": "Versión 1.0: ¡Primer lanzamiento en Windows! 🎉",
+    "Msg_ShareCopied": "¡Enlace copiado! Compártelo con amigos.",
+    "Msg_ComingSoon_Title": "Próximamente",
+    "Msg_ComingSoon_Text": "¡Esta función está en desarrollo! Mantente al tanto.",
+
+    "Menu_Pet": "Acariciar",
+    "Menu_Manage": "Añadir / Gestionar...",
+    "Menu_Settings": "Ajustes...",
+    "Menu_Delete": "Eliminar Mascota",
+    "Menu_TrayFeed": "Alimentar Mascota",
+    "Menu_RemoveFood": "Quitar Comida",
+    "Menu_Pause": "Quedarse / Reanudar",
+    "Menu_Exit": "Salir de la App",
+    
+    "Txt_Hungry": "¡Hambriento!",
+    "Tip_Health": "Salud: {0}% | Hambre: {1}%",
+
+    "Btn_Back": "Atrás",
+    "Menu_Feed": "Alimentar Mascota"
+
+  }
+}

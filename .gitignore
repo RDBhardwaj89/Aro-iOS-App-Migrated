@@ -1,0 +1,20 @@
+# Xcode
+# ---------
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Personal Settings
+# ---------
+xcuserdata/
+
+# Mac system files
+# ---------
+.DS_Store
+
+# Swift Package Manager
+# ---------
+.build/
+.swiftpm/

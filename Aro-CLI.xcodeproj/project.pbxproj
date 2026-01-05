@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		857BF4DB2F0B6AD20012A6FC /* PetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857BF4DA2F0B6AD20012A6FC /* PetViewModel.swift */; };
+		857BF6362F0B79CD0012A6FC /* PetAssets in Resources */ = {isa = PBXBuildFile; fileRef = 857BF6352F0B78730012A6FC /* PetAssets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		857A143A2F0A83A7006EB10D /* Aro-CLI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aro-CLI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857BF4DA2F0B6AD20012A6FC /* PetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
+		857BF6352F0B78730012A6FC /* PetAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PetAssets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +39,10 @@
 		857A14312F0A83A7006EB10D = {
 			isa = PBXGroup;
 			children = (
+				857BF4D92F0B6AAA0012A6FC /* ViewModels */,
 				857A143C2F0A83A7006EB10D /* Aro-CLI */,
 				857A143B2F0A83A7006EB10D /* Products */,
+				857BF6352F0B78730012A6FC /* PetAssets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +52,14 @@
 				857A143A2F0A83A7006EB10D /* Aro-CLI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		857BF4D92F0B6AAA0012A6FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				857BF4DA2F0B6AD20012A6FC /* PetViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857BF6362F0B79CD0012A6FC /* PetAssets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857BF4DB2F0B6AD20012A6FC /* PetViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

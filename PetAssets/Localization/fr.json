@@ -1,0 +1,97 @@
+{
+  "LangName": "Français",
+  "Translations": {
+    "Title_Manager": "Mes Animaux",
+    "Title_AddPet": "Ajouter un Animal",
+    "Btn_AddPet": "+ Ajouter",
+    "Btn_Launch": "TOUT LANCER ▶",
+    
+    "Tab_Pets": "Animaux",
+    "Tab_Food": "Nourriture",
+    "Tab_Acc": "Accessoires",
+    "Txt_FoodDrag": "Glissez la nourriture sur l'écran !",
+    "Lbl_Veg": "Végétarien",
+    "Lbl_NonVeg": "Non-Végétarien",
+
+    "Title_Settings": "Paramètres",
+    "Btn_Reset": "Rétablir les défauts",
+    "Lbl_Behavior": "Comportement",
+    "Lbl_Size": "Taille",
+    "Lbl_Personality": "Personnalité",
+    "Lbl_Speed": "Vitesse",
+    "Lbl_HungerTime": "Fréquence de Faim",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Placement",
+    "Lbl_Gravity": "Vertical",
+    "Lbl_Edge": "Horizontal",
+
+    "Btn_Delete": "Supprimer",
+    "Btn_Save": "Sauvegarder",
+    "Btn_Cancel": "Annuler",
+
+    "Species_Dog": "Chien",
+    "Species_Goose": "Oie",
+
+    "Val_Speed_1": "Super Lent",
+    "Val_Speed_2": "Lent",
+    "Val_Speed_3": "Un peu Lent",
+    "Val_Speed_4": "Normal",
+    "Val_Speed_5": "Un peu Rapide",
+    "Val_Speed_6": "Rapide",
+    "Val_Speed_7": "Super Rapide",
+
+    "Val_Pers_1": "Très Endormi",
+    "Val_Pers_2": "Plutôt Calme",
+    "Val_Pers_3": "Équilibré",
+    "Val_Pers_4": "Plutôt Actif",
+    "Val_Pers_5": "Super Actif",
+
+    "Opt_Grav_0": "Marcher au sol",
+    "Opt_Grav_1": "Voler librement",
+    "Opt_Grav_2": "Flotter vers le haut",
+    "Opt_Grav_3": "Rebondir Haut/Bas",
+
+    "Opt_Edge_0": "Marcher sur l'écran",
+    "Opt_Edge_1": "Rebondir sur les murs",
+    
+    "Title_MoreStuff": "Plus de choses",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Pause de 30 min",
+    "Btn_Resume": "Reprendre Aro",
+    "Hdr_Help": "Aide & Support",
+    "Btn_WhatsNew": "Nouveautés",
+    "Btn_Coffee": "Offrez-nous un café ☕",
+    "Btn_Rate": "Noter l'appli",
+    "Btn_Report": "Signaler un problème",
+    "Btn_Feedback": "Envoyer des avis",
+    "Btn_Share": "Partager l'appli",
+    "Hdr_Credits": "Crédits",
+    "Btn_Privacy": "Politique de Confidentialité",
+    "Btn_Licenses": "Licences & Crédits",
+    "Hdr_Creators": "Rencontrez les créateurs",
+    "Txt_DevIntro": "Salut ! Nous sommes Rish & Arashi, développeur et designers de cette appli ♡",
+    "Txt_DevStory": "Nous avons créé cette application car nous pensons que la technologie devrait être mignonne et amusante !\nDites-nous ce que vous aimeriez ajouter - nous promettons de répondre et de faire de notre mieux pour le réaliser !",
+    "Btn_Ideas": "Envoyez-nous vos idées",
+    
+    "Msg_WhatsNew": "Version 1.0 : Première sortie Windows ! 🎉",
+    "Msg_ShareCopied": "Lien copié ! Partagez-le avec vos amis.",
+    "Msg_ComingSoon_Title": "Bientôt disponible",
+    "Msg_ComingSoon_Text": "Cette fonctionnalité est en développement ! Restez à l'écoute.",
+
+    "Menu_Pet": "Caresser",
+    "Menu_Manage": "Ajouter / Gérer...",
+    "Menu_Settings": "Paramètres...",
+    "Menu_Delete": "Supprimer l'animal",
+    "Menu_TrayFeed": "Nourrir",
+    "Menu_RemoveFood": "Enlever la nourriture",
+    "Menu_Pause": "Rester / Reprendre",
+    "Menu_Exit": "Quitter l'appli",
+    
+    "Txt_Hungry": "J'ai faim !",
+    "Tip_Health": "Santé : {0}% | Faim : {1}%",
+
+    "Btn_Back": "Retour",
+    "Menu_Feed": "Nourrir"
+  }
+}

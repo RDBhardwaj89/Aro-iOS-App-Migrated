@@ -1,0 +1,98 @@
+{
+  "LangName": "Norsk",
+  "Translations": {
+    "Title_Manager": "Mine Kjæledyr",
+    "Title_AddPet": "Legg Til Nytt Kjæledyr",
+    "Btn_AddPet": "+ Legg Til Kjæledyr",
+    "Btn_Launch": "LANSR ALLE ▶",
+    
+    "Tab_Pets": "Kjæledyr",
+    "Tab_Food": "Mat",
+    "Tab_Acc": "Tilbehør",
+    "Txt_FoodDrag": "Dra mat på skjermen!",
+    "Lbl_Veg": "Vegetar",
+    "Lbl_NonVeg": "Ikke-vegetar",
+
+    "Title_Settings": "Innstillinger",
+    "Btn_Reset": "Tilbakestill Standarder",
+    "Lbl_Behavior": "Atferd",
+    "Lbl_Size": "Størrelse",
+    "Lbl_Personality": "Personlighet",
+    "Lbl_Speed": "Hastighet",
+    "Lbl_HungerTime": "Sult Tid",
+    "Val_Minutes": "{0} min",
+
+    "Lbl_Placement": "Plassering",
+    "Lbl_Gravity": "Vertikal",
+    "Lbl_Edge": "Horisontal",
+
+    "Btn_Delete": "Slett Kjæledyr",
+    "Btn_Save": "Lagre Endringer",
+    "Btn_Cancel": "Avbryt",
+
+    "Species_Dog": "Hund",
+    "Species_Goose": "Gås",
+
+    "Val_Speed_1": "Super Langsom",
+    "Val_Speed_2": "Langsom",
+    "Val_Speed_3": "Ganske Langsom",
+    "Val_Speed_4": "Normal",
+    "Val_Speed_5": "Ganske Rask",
+    "Val_Speed_6": "Rask",
+    "Val_Speed_7": "Super Rask",
+
+    "Val_Pers_1": "Veldig Søvnig",
+    "Val_Pers_2": "Mest Rolig",
+    "Val_Pers_3": "Balansert",
+    "Val_Pers_4": "Mest Aktiv",
+    "Val_Pers_5": "Super Aktiv",
+
+    "Opt_Grav_0": "Gå På Gulv",
+    "Opt_Grav_1": "Fly Fri",
+    "Opt_Grav_2": "Flyt Opp",
+    "Opt_Grav_3": "Sprette Opp/Ned",
+
+    "Opt_Edge_0": "Gå Rundt Skjerm",
+    "Opt_Edge_1": "Sprette Mot Vegger",
+    
+    "Title_MoreStuff": "Mer Stuff",
+    "Hdr_Aro": "Aro",
+    "Btn_Restart": "Pause i 30 min",
+    "Btn_Resume": "Gjenoppta Aro",
+    "Hdr_Help": "Hjelp & Støtte",
+    "Btn_WhatsNew": "Hva er Nytt",
+    "Btn_Coffee": "Kjøp oss kaffe ☕",
+    "Btn_Rate": "Vurder appen",
+    "Btn_Report": "Rapporter Problem",
+    "Btn_Feedback": "Send Tilbakemelding",
+    "Btn_Share": "Del appen",
+    "Hdr_Credits": "Kreditter",
+    "Btn_Privacy": "Personvern Policy",
+    "Btn_Licenses": "Lisenser & Kreditter",
+    "Hdr_Creators": "Møt skaperne",
+    "Txt_DevIntro": "Hei! Vi er Rish & Arashi, utviklere og designere av denne appen ♡",
+    "Txt_DevStory": "Vi laget denne appen fordi vi tror tech skal være søtt og gøy!\nFortell oss hva du vil legge til - vi lover å svare og prøve vårt beste for å få det til!",
+    "Btn_Ideas": "Send oss dine ideer",
+    
+    "Msg_WhatsNew": "Versjon 1.0: Første Windows Utgivelse! 🎉",
+    "Msg_ShareCopied": "Lenke kopiert til utklipp! Del med venner.",
+    "Msg_ComingSoon_Title": "Kommer Snart",
+    "Msg_ComingSoon_Text": "Denne funksjonen er under utvikling! Hold deg oppdatert.",
+
+    "Menu_Pet": "Kjæledyr God Gutt",
+    "Menu_Manage": "Legg Til / Håndter Kjæledyr...",
+    "Menu_Settings": "Innstillinger...",
+    "Menu_Delete": "Slett Kjæledyr",
+    "Menu_TrayFeed": "Mat Kjæledyr",
+    "Menu_RemoveFood": "Fjern Mat",
+    "Menu_Pause": "Pause / Gjenoppta",
+    "Menu_Exit": "Lukk App",
+    
+    "Txt_Hungry": "Sulten!",
+    "Tip_Health": "Helse: {0}% | Sult: {1}%",
+
+    "Btn_Back": "Tilbake",
+    "Menu_Feed": "Mat Kjæledyr"
+
+  }
+}
