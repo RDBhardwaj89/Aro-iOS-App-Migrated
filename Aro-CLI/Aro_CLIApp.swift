@@ -13,6 +13,7 @@ struct Aro_CLIApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: PetModel.self)
+        // 🛠 Make sure these three match your PetModel.swift classes
+        .modelContainer(for: [PetModel.self, SpeciesMetadata.self, AnimationMetadata.self])
     }
 }

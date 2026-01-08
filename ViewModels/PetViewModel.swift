@@ -1,93 +1,113 @@
 // 1. File name: PetViewModel.swift
-// 2. Version: 2.2
-// 3. Date and time: Jan 5, 2026, 02:30 PM (IST)
-// 4. Target for this file: Aro-CLI
-// 5. Purpose of this file: Advanced movement with two-way wrap-around logic and fixed sprite orientation.
+// 2. Version: 18.0
+// 3. Date and time: Jan 8, 2026, 11:30 AM (IST)
+// 4. Target group: Aro-CLI
+// 5. Purpose: 100% data-driven asset pathing using metadata folder names. Implements C# loop logic.
 
 import Foundation
 import SwiftUI
 import Combine
 
-class PetViewModel: ObservableObject {
-    @Published var x: CGFloat = 150
-    @Published var y: CGFloat = 300
+class PetViewModel: ObservableObject, Identifiable {
+    let id: UUID
+    var model: PetModel
+    var speciesRules: SpeciesMetadata?
+    
+    @Published var x: CGFloat = CGFloat.random(in: 50...300)
+    @Published var y: CGFloat = CGFloat.random(in: 100...500)
     @Published var directionX: CGFloat = 1
     @Published var directionY: CGFloat = 1
     @Published var currentFrame: Int = 1
+    @Published var currentAnim: AnimationMetadata?
+    @Published var isDragging: Bool = false
     
     @Published var scale: Double = 1.0
     @Published var speedId: Int = 4
+    @Published var personalityId: Int = 3
     @Published var physicsMode: Int = 0
     @Published var screenEdgeMode: Int = 1
     
+    private var loopsRemaining: Int = 10
     var roomWidth: CGFloat = 350
     var roomHeight: CGFloat = 600
     private var timer: Timer?
-    var petData: PetModel?
-    
-    init() {
-        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { _ in
-            self.update()
-        }
+
+    init(model: PetModel, species: SpeciesMetadata?) {
+        self.id = model.id; self.model = model; self.speciesRules = species
+        refreshFromModel()
+        setupAnimation(species?.startAnimation ?? "Walk")
+        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { [weak self] _ in self?.update() }
     }
-    
-    func syncWithDatabase(model: PetModel) {
-        self.petData = model
-        self.scale = model.scale
-        self.speedId = model.speedId
-        self.physicsMode = model.physicsMode
+
+    func refreshFromModel() {
+        self.scale = model.scale; self.speedId = model.speedId
+        self.personalityId = model.personalityId; self.physicsMode = model.physicsMode
         self.screenEdgeMode = model.screenEdgeMode
-    }
-    
-    func saveToDatabase() {
-        guard let data = petData else { return }
-        data.scale = self.scale
-        data.speedId = self.speedId
-        data.physicsMode = self.physicsMode
-        data.screenEdgeMode = self.screenEdgeMode
     }
 
     func update() {
-        let baseSpeed: CGFloat = CGFloat(speedId) * 1.5
-        let vSpeed: CGFloat = 5.0
+        guard !isDragging else { return }
+        let speeds: [Double] = [0, 0.2, 0.5, 0.8, 1.0, 1.5, 2.0, 3.0]
+        let currentSpeed = (currentAnim?.baseSpeedX ?? 3.0) * speeds[speedId]
         
-        // 1. VERTICAL MODES
+        x += (currentSpeed * directionX)
+        
+        // Vertical Physics
+        let vSpeed: CGFloat = 5.0 * speeds[speedId]
         switch physicsMode {
-        case 0: if y < (roomHeight - 120) { y += vSpeed } else { y = roomHeight - 120 }
-        case 2: if y > 120 { y -= vSpeed } else { y = 120 }
-        case 3: y += (vSpeed * directionY); if y > (roomHeight - 120) || y < 120 { directionY *= -1 }
+        case 0: if y < (roomHeight - 80) { y += vSpeed * 1.2 } else { y = roomHeight - 80 }
+        case 2: if y > 80 { y -= vSpeed } else { y = 80 }
+        case 3: y += (vSpeed * directionY); if y > (roomHeight - 80) || y < 80 { directionY *= -1 }
         default: break
         }
-        
-        // 2. HORIZONTAL MOVEMENT
-        x += (baseSpeed * directionX)
 
+        // Edges
         if screenEdgeMode == 1 {
-            // BOUNCE MODE
-            if x > (roomWidth - 60) { directionX = -1 }
-            else if x < 60 { directionX = 1 }
+            if x > (roomWidth - 40) || x < 40 { directionX *= -1 }
         } else {
-            // WALK AROUND (WRAP) MODE
-            if x > roomWidth + 80 {
-                teleport(to: -80)
-            } else if x < -80 {
-                teleport(to: roomWidth + 80)
-            }
+            if x > roomWidth + 80 { teleport(to: -80) }
+            else if x < -80 { teleport(to: roomWidth + 80) }
         }
         
-        currentFrame = (currentFrame % 7) + 1
-    }
-    
-    private func teleport(to newX: CGFloat) {
-        var transaction = Transaction()
-        transaction.disablesAnimations = true
-        withTransaction(transaction) {
-            self.x = newX
+        // Animation Loop Logic
+        currentFrame += 1
+        if currentFrame > (currentAnim?.frameCount ?? 1) {
+            currentFrame = 1
+            loopsRemaining -= 1
+            if loopsRemaining <= 0 { decideNextMood() }
         }
     }
-    
-    func getSpritePath() -> String {
-        let frameName = String(format: "sprite_%04d", currentFrame)
-        return "PetAssets/Dog/dog-exotic-walk/\(frameName)"
+
+    func setupAnimation(_ name: String) {
+        let anim = speciesRules?.animations.first(where: { $0.name == name }) ?? speciesRules?.animations.first
+        self.currentAnim = anim
+        self.loopsRemaining = Int.random(in: (anim?.minLoops ?? 5)...(anim?.maxLoops ?? 15))
+        self.currentFrame = 1
+    }
+
+    func decideNextMood() {
+        let weights = (personalityId == 1) ? [80, 15, 5] : (personalityId == 5 ? [5, 15, 80] : [33, 33, 34])
+        let roll = Int.random(in: 0...100)
+        let targetCat = roll < weights[0] ? 0 : (roll < weights[0] + weights[1] ? 1 : 2)
+        
+        let choices = speciesRules?.animations.filter { $0.category == targetCat }
+        if let newAnim = choices?.randomElement() { setupAnimation(newAnim.name) }
+    }
+
+    func getSpritePath(species: SpeciesMetadata?) -> String {
+        let framesStr = String(format: "sprite_%04d", currentFrame)
+        let speciesFolder = species?.basePath ?? "Dog"
+        
+        // 🛠 THE FINAL FIX: We use the folderName from Metadata exactly.
+        // This makes sure Goose uses "goose1-idle" and Dog uses "dog-exotic-sleeping"
+        // with no string manipulation errors.
+        let animFolder = currentAnim?.folderName ?? "dog-exotic-walk"
+        
+        return "PetAssets/\(speciesFolder)/\(animFolder)/\(framesStr)"
+    }
+
+    func teleport(to newX: CGFloat) {
+        var trans = Transaction(); trans.disablesAnimations = true
+        withTransaction(trans) { self.x = newX }
     }
 }
