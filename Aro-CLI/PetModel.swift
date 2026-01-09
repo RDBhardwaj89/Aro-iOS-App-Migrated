@@ -1,8 +1,8 @@
 // 1. File name: PetModel.swift
-// 2. Version: 45.0
-// 3. Date and time: Jan 9, 2026, 12:45 PM (IST)
+// 2. Version: 49.0
+// 3. Date and time: Jan 9, 2026, 05:30 PM (IST)
 // 4. Target group: Aro-CLI
-// 5. Purpose: Relational SwiftData schema including hungerRate and isLaunched tracking.
+// 5. Purpose: Relational SwiftData schema including hungerRate and startAnimation for Metadata parity.
 
 import Foundation
 import SwiftData
@@ -16,8 +16,14 @@ class SpeciesMetadata {
     var defaultName: String
     var iconPath: String
     @Relationship(deleteRule: .cascade) var animations: [AnimationMetadata] = []
+    
     init(id: Int, name: String, path: String, start: String, defName: String, icon: String) {
-        self.speciesId = id; self.name = name; self.basePath = path; self.startAnimation = start; self.defaultName = defName; self.iconPath = icon
+        self.speciesId = id
+        self.name = name
+        self.basePath = path
+        self.startAnimation = start
+        self.defaultName = defName
+        self.iconPath = icon
     }
 }
 
@@ -31,8 +37,16 @@ class AnimationMetadata {
     var category: Int
     var minLoops: Int
     var maxLoops: Int
+    
     init(speciesId: Int, name: String, folder: String, frames: Int, speed: Double, cat: Int, minL: Int, maxL: Int) {
-        self.speciesId = speciesId; self.name = name; self.folderName = folder; self.frameCount = frames; self.baseSpeedX = speed; self.category = cat; self.minLoops = minL; self.maxLoops = maxL
+        self.speciesId = speciesId
+        self.name = name
+        self.folderName = folder
+        self.frameCount = frames
+        self.baseSpeedX = speed
+        self.category = cat
+        self.minLoops = minL
+        self.maxLoops = maxL
     }
 }
 
@@ -42,8 +56,12 @@ class FoodMetadata {
     var nameKey: String
     var filename: String
     var isVegetarian: Bool
+    
     init(id: Int, name: String, file: String, isVeg: Bool) {
-        self.foodId = id; self.nameKey = name; self.filename = file; self.isVegetarian = isVeg
+        self.foodId = id
+        self.nameKey = name
+        self.filename = file
+        self.isVegetarian = isVeg
     }
 }
 
@@ -51,8 +69,10 @@ class FoodMetadata {
 class DietMetadata {
     var speciesId: Int
     var foodId: Int
+    
     init(speciesId: Int, foodId: Int) {
-        self.speciesId = speciesId; self.foodId = foodId
+        self.speciesId = speciesId
+        self.foodId = foodId
     }
 }
 
@@ -71,7 +91,14 @@ class PetModel {
     var hungerTime: Double = 50.0
     var hungerRate: Double = 0.2
     var lastUpdate: Date = Date()
+    
     init(name: String, speciesId: Int) {
-        self.name = name; self.speciesId = speciesId; self.id = UUID(); self.isLaunched = false; self.lastUpdate = Date()
+        self.name = name
+        self.speciesId = speciesId
+        self.id = UUID()
+        self.isLaunched = false
+        self.lastUpdate = Date()
+        self.hungerRate = 0.2
+        self.hungerTime = 50.0
     }
 }

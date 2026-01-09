@@ -10,7 +10,7 @@ import SwiftData
 @main
 struct Aro_CLIApp: App {
     // 🛠 SET THIS TO TRUE ONCE, THEN FALSE
-    let shouldResetDatabase = true
+    let shouldResetDatabase = false
 
     var body: some Scene {
         WindowGroup {

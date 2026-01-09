@@ -1,6 +1,6 @@
 // 1. File name: Constants.swift
-// 2. Version: 45.0
-// 3. Date and time: Jan 9, 2026, 12:45 PM (IST)
+// 2. Version: 49.0
+// 3. Date and time: Jan 9, 2026, 05:30 PM (IST)
 // 4. Target group: Aro-CLI
 // 5. Purpose: Global named constants for Category and Speed to ensure type-safe metadata seeding.
 
