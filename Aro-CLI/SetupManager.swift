@@ -1,8 +1,8 @@
 // 1. File name: SetupManager.swift
-// 2. Version: 49.0
-// 3. Date and time: Jan 9, 2026, 05:30 PM (IST)
+// 2. Version: 52.0
+// 3. Date and time: Jan 10, 2026, 10:30 AM (IST)
 // 4. Target group: Aro-CLI
-// 5. Purpose: Master Data Seeder - Seeds all 15 animation folders using named constants. Cleaned logic to prevent mutation errors.
+// 5. Purpose: Professional Data Seeder mapping all 15 subfolders and diet logic exactly to C# metadata.
 
 import Foundation
 import SwiftData
@@ -11,7 +11,7 @@ import SwiftData
 class SetupManager {
     static func seed(context: ModelContext) {
         if (try? context.fetchCount(FetchDescriptor<SpeciesMetadata>())) == 0 {
-            // --- DOG SEED (8 Folders) ---
+            // --- DOG ---
             let dog = SpeciesMetadata(id: 1, name: "Dog", path: "Dog", start: "Walk", defName: "Inu", icon: "dog-exotic-jump/sprite_0005")
             context.insert(dog)
             
@@ -24,8 +24,8 @@ class SetupManager {
             dog.animations.append(AnimationMetadata(speciesId: 1, name: "Run", folder: "dog-exotic-run", frames: 3, speed: PetConstants.Speed.fast, cat: PetConstants.Category.active, minL: 10, maxL: 30))
             dog.animations.append(AnimationMetadata(speciesId: 1, name: "Jump", folder: "dog-exotic-jump", frames: 6, speed: PetConstants.Speed.fast, cat: PetConstants.Category.active, minL: 5, maxL: 10))
 
-            // --- GOOSE SEED (7 Folders) ---
-            let goose = SpeciesMetadata(id: 2, name: "Goose", path: "Goose", start: "Walk", defName: "Miss Honk", icon: "goose1-fly/sprite_0001")
+            // --- GOOSE ---
+            let goose = SpeciesMetadata(id: 2, name: "Goose", path: "Goose", start: "Walk", defName: "Miss Honk", icon: "goose1-fly/sprite_0002")
             context.insert(goose)
             
             goose.animations.append(AnimationMetadata(speciesId: 2, name: "Sleep", folder: "goose1-sleep", frames: 6, speed: PetConstants.Speed.stop, cat: PetConstants.Category.inactive, minL: 10, maxL: 20))
@@ -49,14 +49,10 @@ class SetupManager {
                 FoodMetadata(id: 8, name: "Grass", file: "Food/grass.png", isVeg: true),
                 FoodMetadata(id: 9, name: "Water", file: "Food/water.png", isVeg: true)
             ]
-            for item in foods {
-                context.insert(item)
-            }
+            for item in foods { context.insert(item) }
             
             let diets = [(1,1), (1,3), (1,4), (1,6), (1,9), (2,2), (2,5), (2,7), (2,8), (2,9), (2,1)]
-            for pair in diets {
-                context.insert(DietMetadata(speciesId: pair.0, foodId: pair.1))
-            }
+            for pair in diets { context.insert(DietMetadata(speciesId: pair.0, foodId: pair.1)) }
         }
         try? context.save()
     }

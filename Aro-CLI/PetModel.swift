@@ -1,8 +1,8 @@
 // 1. File name: PetModel.swift
-// 2. Version: 49.0
-// 3. Date and time: Jan 9, 2026, 05:30 PM (IST)
+// 2. Version: 52.0
+// 3. Date and time: Jan 10, 2026, 10:30 AM (IST)
 // 4. Target group: Aro-CLI
-// 5. Purpose: Relational SwiftData schema including hungerRate and startAnimation for Metadata parity.
+// 5. Purpose: Professional relational schema for persistent pet and metadata storage.
 
 import Foundation
 import SwiftData
@@ -56,7 +56,6 @@ class FoodMetadata {
     var nameKey: String
     var filename: String
     var isVegetarian: Bool
-    
     init(id: Int, name: String, file: String, isVeg: Bool) {
         self.foodId = id
         self.nameKey = name
@@ -69,7 +68,6 @@ class FoodMetadata {
 class DietMetadata {
     var speciesId: Int
     var foodId: Int
-    
     init(speciesId: Int, foodId: Int) {
         self.speciesId = speciesId
         self.foodId = foodId
@@ -98,7 +96,5 @@ class PetModel {
         self.id = UUID()
         self.isLaunched = false
         self.lastUpdate = Date()
-        self.hungerRate = 0.2
-        self.hungerTime = 50.0
     }
 }
